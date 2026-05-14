@@ -19,7 +19,7 @@ void main() {
   double remainingBalance = income - totalExpenses;
   double savingsPercentage = (remainingBalance / income) * 100;
 
-  print("===== Personal Finance Tracker =====");
+  print("Personal Finance Tracker");
 
   for (int i = 0; i < categories.length; i++) {
     print("${categories[i]}: ${expenses[categories[i]] ?? 0}");
